@@ -1,0 +1,88 @@
+/* Custom styles for the e-commerce website */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: url('hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#cart-items li {
+    padding: 10px;
+}
+
+#bill {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+}
+.banner{
+    background-color: #45489a;
+}
+.navigation{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.logo{
+    width: 100%;
+    height: 140px;
+    line-height: 32px;
+    background-color: #45489a;
+    padding: 20px;
+    text-align: center;
+
+}
+.logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    height: 79px;
+    display: inline-block;
+    border: 1px solid rgba(250, 250, 250, 0.5);
+}
+@media (max-width: 767px) {
+    .logo {
+        width: 40%;  /* 40% width on mobile screens */
+         /* Center the card */
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 12%;  /* 12% width on screens larger than 768px */
+        
+    }
+}
+
+/* Optional: Ensure proper alignment and spacing on larger screens */
+@media (min-width: 992px) {
+    .logo {
+        width: 12%;  /* Keep the same width on larger screens */
+        
+    }
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.button:hover {
+    color: #fff;
+    background-color: #45489a;
+    border-color: #45489a;
+}
+}
